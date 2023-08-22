@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include propertyone *.css
+recursive-include propertyone *.csv
+recursive-include propertyone *.html
+recursive-include propertyone *.ico
+recursive-include propertyone *.js
+recursive-include propertyone *.json
+recursive-include propertyone *.md
+recursive-include propertyone *.png
+recursive-include propertyone *.py
+recursive-include propertyone *.svg
+recursive-include propertyone *.txt
+recursive-exclude propertyone *.pyc
